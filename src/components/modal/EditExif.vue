@@ -61,8 +61,8 @@ export default defineComponent({
     processing: false,
     fields: [
       {
-        field: "Title",
-        label: t("memories", "Title"),
+        field: "Rating",
+        label: t("memories", "Rating"),
       },
       {
         field: "Description",
@@ -75,22 +75,6 @@ export default defineComponent({
       {
         field: "Label",
         label: t("memories", "Label"),
-      },
-      {
-        field: "Make",
-        label: t("memories", "Camera Make"),
-      },
-      {
-        field: "Model",
-        label: t("memories", "Camera Model"),
-      },
-      {
-        field: "Lens",
-        label: t("memories", "Lens"),
-      },
-      {
-        field: "Copyright",
-        label: t("memories", "Copyright"),
       },
     ],
   }),
